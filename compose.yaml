@@ -18,6 +18,8 @@ services:
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: tempus
+    volumes:
+      - pgdata:/var/lib/postgresql/data 
 
   adminer:
     image: adminer
@@ -33,3 +35,6 @@ services:
       - 4318:4318     # OTLP HTTP
     environment:
       COLLECTOR_OTLP_ENABLED: true
+
+volumes:
+  pgdata:
