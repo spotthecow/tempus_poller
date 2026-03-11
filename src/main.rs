@@ -1,7 +1,7 @@
 use opentelemetry::trace::TracerProvider;
 use opentelemetry_sdk::trace::SdkTracerProvider;
 use sqlx::postgres::PgPoolOptions;
-use tempuspoints_poller::{client::TempusClient, db};
+use tempus_poller::{client::TempusClient, db};
 use tokio::{task::JoinSet, time};
 use tracing::Instrument as _;
 use tracing_subscriber::{layer::SubscriberExt as _, util::SubscriberInitExt as _};
@@ -47,7 +47,7 @@ async fn main() -> anyhow::Result<()> {
         for map in &maps {
             tokio::select! {
                 _ = &mut shutdown => {
-                    tracing::debug!("shutting down");
+                    tracing::info!("shutting down");
                     running = false;
                     break;
                 }
@@ -99,7 +99,7 @@ fn init_telemetry() -> anyhow::Result<SdkTracerProvider> {
     let resource = opentelemetry_sdk::Resource::builder()
         .with_attributes([opentelemetry::KeyValue::new(
             "service.name",
-            "tempuspoints-poller",
+            "tempus-poller",
         )])
         .build();
     let otlp_exporter = opentelemetry_otlp::SpanExporter::builder()
@@ -109,7 +109,7 @@ fn init_telemetry() -> anyhow::Result<SdkTracerProvider> {
         .with_batch_exporter(otlp_exporter)
         .with_resource(resource)
         .build();
-    let tracer = tracer_provider.tracer("tempuspoints-poller");
+    let tracer = tracer_provider.tracer("tempus-poller");
     tracing_subscriber::registry()
         .with(tracing_subscriber::EnvFilter::from_default_env())
         .with(tracing_subscriber::fmt::layer())

@@ -2269,7 +2269,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "tempuspoints_poller"
+name = "tempus_poller"
 version = "0.1.0"
 dependencies = [
  "anyhow",
