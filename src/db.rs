@@ -1,7 +1,7 @@
 use crate::models::{Map, Record};
 use sqlx::PgPool;
 
-#[tracing::instrument]
+#[tracing::instrument(skip_all)]
 pub async fn upsert_maps(pool: &PgPool, maps: &[Map]) -> anyhow::Result<()> {
     for map in maps {
         let zone_counts = serde_json::to_value(&map.zone_counts)?;
@@ -40,7 +40,7 @@ pub async fn upsert_maps(pool: &PgPool, maps: &[Map]) -> anyhow::Result<()> {
     Ok(())
 }
 
-#[tracing::instrument]
+#[tracing::instrument(skip_all)]
 pub async fn upsert_users(pool: &PgPool, records: &[Record]) -> anyhow::Result<()> {
     for rec in records {
         sqlx::query!(
@@ -61,7 +61,7 @@ pub async fn upsert_users(pool: &PgPool, records: &[Record]) -> anyhow::Result<(
     Ok(())
 }
 
-#[tracing::instrument]
+#[tracing::instrument(skip_all)]
 pub async fn upsert_records(pool: &PgPool, map_id: i32, records: &[Record]) -> anyhow::Result<()> {
     for rec in records {
         sqlx::query!(

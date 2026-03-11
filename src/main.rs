@@ -1,17 +1,18 @@
+use opentelemetry::trace::TracerProvider;
+use opentelemetry_sdk::trace::SdkTracerProvider;
 use sqlx::postgres::PgPoolOptions;
 use tempuspoints_poller::{client::TempusClient, db};
-use tokio::time;
-use tracing::Instrument;
-use tracing_subscriber::EnvFilter;
+use tokio::{task::JoinSet, time};
+use tracing::Instrument as _;
+use tracing_subscriber::{layer::SubscriberExt as _, util::SubscriberInitExt as _};
 
 const POLL_INTERVAL: time::Duration = time::Duration::from_millis(1050);
+const CYCLE_INTERVAL: time::Duration = time::Duration::from_mins(60);
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     dotenvy::dotenv()?;
-    tracing_subscriber::fmt()
-        .with_env_filter(EnvFilter::from_default_env())
-        .init();
+    let tracer_provider = init_telemetry()?;
 
     let tempus = TempusClient::new();
     let pg = PgPoolOptions::new()
@@ -25,17 +26,20 @@ async fn main() -> anyhow::Result<()> {
     tokio::pin!(shutdown);
 
     let mut poll_interval = time::interval(POLL_INTERVAL);
-    let mut hourly_interval = time::interval(time::Duration::from_hours(1));
+    let mut cycle_interval = time::interval(CYCLE_INTERVAL);
     poll_interval.set_missed_tick_behavior(time::MissedTickBehavior::Delay);
 
-    'poll: loop {
+    let mut running = true;
+    while running {
         tokio::select! {
             _ = &mut shutdown => {
                 tracing::info!("shutting down");
                 break;
             }
-            _ = hourly_interval.tick() => {}
+            _ = cycle_interval.tick() => {}
         }
+
+        let mut tasks = JoinSet::new();
 
         let maps = tempus.get_maps().await?;
         db::upsert_maps(&pg, &maps).await?;
@@ -43,18 +47,19 @@ async fn main() -> anyhow::Result<()> {
         for map in &maps {
             tokio::select! {
                 _ = &mut shutdown => {
-                    tracing::info!("shutting down");
-                    break 'poll;
+                    tracing::debug!("shutting down");
+                    running = false;
+                    break;
                 }
-                _ = poll_interval.tick() => {}
+            _ = poll_interval.tick() => {}
             }
 
             let client = tempus.clone();
             let pool = pg.clone();
             let map_id = map.id;
 
-            let span = tracing::info_span!("poll map", map_id);
-            tokio::spawn(
+            let poll_span = tracing::info_span!("poll_map", map_id);
+            tasks.spawn(
                 async move {
                     match client.get_map_records(map_id).await {
                         Ok(records_list) => {
@@ -79,10 +84,38 @@ async fn main() -> anyhow::Result<()> {
                         Err(e) => tracing::warn!(map_id, "fetch failed: {e}"),
                     };
                 }
-                .instrument(span),
+                .instrument(poll_span),
             );
         }
+
+        tasks.join_all().await;
     }
 
+    tracer_provider.shutdown()?;
     Ok(())
+}
+
+fn init_telemetry() -> anyhow::Result<SdkTracerProvider> {
+    let resource = opentelemetry_sdk::Resource::builder()
+        .with_attributes([opentelemetry::KeyValue::new(
+            "service.name",
+            "tempuspoints-poller",
+        )])
+        .build();
+    let otlp_exporter = opentelemetry_otlp::SpanExporter::builder()
+        .with_tonic()
+        .build()?;
+    let tracer_provider = SdkTracerProvider::builder()
+        .with_batch_exporter(otlp_exporter)
+        .with_resource(resource)
+        .build();
+    let tracer = tracer_provider.tracer("tempuspoints-poller");
+    tracing_subscriber::registry()
+        .with(tracing_subscriber::EnvFilter::from_default_env())
+        .with(tracing_subscriber::fmt::layer())
+        .with(tracing_opentelemetry::OpenTelemetryLayer::new(tracer))
+        .init();
+    opentelemetry::global::set_tracer_provider(tracer_provider.clone());
+
+    Ok(tracer_provider)
 }

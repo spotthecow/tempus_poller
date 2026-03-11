@@ -24,7 +24,7 @@ impl TempusClient {
         }
     }
 
-    #[tracing::instrument]
+    #[tracing::instrument(skip(self))]
     pub async fn get_maps(&self) -> anyhow::Result<Vec<models::Map>> {
         let response = self
             .inner
@@ -44,7 +44,7 @@ impl TempusClient {
         Ok(maps)
     }
 
-    #[tracing::instrument]
+    #[tracing::instrument(skip(self))]
     pub async fn get_map_records(&self, map_id: u32) -> anyhow::Result<models::MapRecordsList> {
         let url = format!("/maps/id/{map_id}/zones/typeindex/map/1/records/list");
         let response = self.inner.get(self.base.clone() + &url).send().await?;
