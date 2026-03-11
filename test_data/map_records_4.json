@@ -1,0 +1,2727 @@
+{
+  "zone_info": {
+    "id": 1550,
+    "map_id": 4,
+    "zoneindex": 1,
+    "custom_name": null,
+    "type": "map"
+  },
+  "tier_info": {
+    "3": 3,
+    "4": 2
+  },
+  "rating_info": {
+    "3": 4,
+    "4": 2
+  },
+  "completion_info": {
+    "soldier": 888,
+    "demoman": 991
+  },
+  "results": {
+    "soldier": [
+      {
+        "id": 7060034,
+        "zone_id": 1550,
+        "duration": 209.625,
+        "class": 3,
+        "date": 1711466216.7960997,
+        "demo_info": {
+          "id": 2790365,
+          "start_tick": 19213,
+          "end_tick": 33188,
+          "url": "https://demos-archive.tempus2.xyz/54/99/auto-20240326-150838-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 54,
+            "name": "Himawari (Tokyo) All Maps #2"
+          }
+        },
+        "user_id": 370388,
+        "name": "₍ᐢᐢ₎. usongi ｡OwO。",
+        "steamid": "STEAM_0:1:125010574",
+        "rank": 1,
+        "placement": 1,
+        "player_info": {
+          "id": 370388,
+          "steamid": "STEAM_0:1:125010574",
+          "name": "₍ᐢᐢ₎. usongi ｡OwO。"
+        }
+      },
+      {
+        "id": 6190516,
+        "zone_id": 1550,
+        "duration": 214.065,
+        "class": 3,
+        "date": 1681853612.0118408,
+        "demo_info": {
+          "id": 2280828,
+          "start_tick": 256363,
+          "end_tick": 270634,
+          "url": "https://demos-archive.tempus2.xyz/46/06/auto-20230418-202552-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 46,
+            "name": "jump.tf (Sweden) Rank 200 Only"
+          }
+        },
+        "user_id": 424667,
+        "name": "x_ray2700",
+        "steamid": "STEAM_0:1:509707471",
+        "rank": 2,
+        "placement": 2,
+        "player_info": {
+          "id": 424667,
+          "steamid": "STEAM_0:1:509707471",
+          "name": "x_ray2700"
+        }
+      },
+      {
+        "id": 7603193,
+        "zone_id": 1550,
+        "duration": 218.94,
+        "class": 3,
+        "date": 1731292122.753325,
+        "demo_info": {
+          "id": 3124685,
+          "start_tick": 423279,
+          "end_tick": 437875,
+          "url": "https://demos-rolling.tempus2.xyz/48/83/auto-20241111-003914-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 48,
+            "name": "Echo Jump (Seattle) Rank 400 Only"
+          }
+        },
+        "user_id": 503501,
+        "name": "sammy -rng",
+        "steamid": "STEAM_0:0:520520971",
+        "rank": 3,
+        "placement": 3,
+        "player_info": {
+          "id": 503501,
+          "steamid": "STEAM_0:0:520520971",
+          "name": "sammy -rng"
+        }
+      },
+      {
+        "id": 5986516,
+        "zone_id": 1550,
+        "duration": 223.17,
+        "class": 3,
+        "date": 1672865084.4715676,
+        "demo_info": {
+          "id": 2169343,
+          "start_tick": 299029,
+          "end_tick": 313907,
+          "url": "https://demos-archive.tempus2.xyz/42/1f/auto-20230104-192615-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 42,
+            "name": "Jump (Adelaide) All Maps"
+          }
+        },
+        "user_id": 5907,
+        "name": "Scoot",
+        "steamid": "STEAM_0:0:44514044",
+        "rank": 4,
+        "placement": 4,
+        "player_info": {
+          "id": 5907,
+          "steamid": "STEAM_0:0:44514044",
+          "name": "Scoot"
+        }
+      },
+      {
+        "id": 5454918,
+        "zone_id": 1550,
+        "duration": 239.895,
+        "class": 3,
+        "date": 1645284783.6563492,
+        "demo_info": {
+          "id": 1863671,
+          "start_tick": 457710,
+          "end_tick": 473703,
+          "url": "https://demos-archive.tempus2.xyz/21/6d/auto-20220219-133438-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 21,
+            "name": "jump.tf (France) All Maps #2"
+          }
+        },
+        "user_id": 220652,
+        "name": "wrath",
+        "steamid": "STEAM_0:1:71098344",
+        "rank": 5,
+        "placement": 5,
+        "player_info": {
+          "id": 220652,
+          "steamid": "STEAM_0:1:71098344",
+          "name": "wrath"
+        }
+      },
+      {
+        "id": 6087048,
+        "zone_id": 1550,
+        "duration": 242.415,
+        "class": 3,
+        "date": 1677399298.748135,
+        "demo_info": {
+          "id": 2225641,
+          "start_tick": 141226,
+          "end_tick": 157387,
+          "url": null,
+          "server_info": {
+            "id": 41,
+            "name": "jump.tf (New York) Rank 50 Only"
+          }
+        },
+        "user_id": 145,
+        "name": "riotbz",
+        "steamid": "STEAM_0:1:52451978",
+        "rank": 6,
+        "placement": 6,
+        "player_info": {
+          "id": 145,
+          "steamid": "STEAM_0:1:52451978",
+          "name": "riotbz"
+        }
+      },
+      {
+        "id": 7896087,
+        "zone_id": 1550,
+        "duration": 252.855,
+        "class": 3,
+        "date": 1748013876.895205,
+        "demo_info": {
+          "id": 3330562,
+          "start_tick": 416582,
+          "end_tick": 433439,
+          "url": "https://demos-rolling.tempus2.xyz/57/72/auto-20250523-133615-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 57,
+            "name": "jump.tf (London) Beginners"
+          }
+        },
+        "user_id": 217992,
+        "name": "euh",
+        "steamid": "STEAM_0:0:173459239",
+        "rank": 7,
+        "placement": 7,
+        "player_info": {
+          "id": 217992,
+          "steamid": "STEAM_0:0:173459239",
+          "name": "euh"
+        }
+      },
+      {
+        "id": 5543178,
+        "zone_id": 1550,
+        "duration": 264.135,
+        "class": 3,
+        "date": 1649351195.3890913,
+        "demo_info": {
+          "id": 1909666,
+          "start_tick": 593264,
+          "end_tick": 610873,
+          "url": null,
+          "server_info": {
+            "id": 45,
+            "name": "jump.tf (Sweden) All Maps #2"
+          }
+        },
+        "user_id": 357942,
+        "name": "Helmi -jcf",
+        "steamid": "STEAM_0:1:120859835",
+        "rank": 8,
+        "placement": 8,
+        "player_info": {
+          "id": 357942,
+          "steamid": "STEAM_0:1:120859835",
+          "name": "Helmi -jcf"
+        }
+      },
+      {
+        "id": 3648609,
+        "zone_id": 1550,
+        "duration": 267.66,
+        "class": 3,
+        "date": 1584742162.2385485,
+        "demo_info": {
+          "id": 1201622,
+          "start_tick": 71339,
+          "end_tick": 89183,
+          "url": null,
+          "server_info": {
+            "id": 25,
+            "name": "Echo Jump (Seattle) Rank 1000 Only"
+          }
+        },
+        "user_id": 252294,
+        "name": "Ip-Mod",
+        "steamid": "STEAM_0:0:96176476",
+        "rank": 9,
+        "placement": 9,
+        "player_info": {
+          "id": 252294,
+          "steamid": "STEAM_0:0:96176476",
+          "name": "Ip-Mod"
+        }
+      },
+      {
+        "id": 6550482,
+        "zone_id": 1550,
+        "duration": 270.72,
+        "class": 3,
+        "date": 1694280783.7887151,
+        "demo_info": {
+          "id": 2494500,
+          "start_tick": 115296,
+          "end_tick": 133342,
+          "url": null,
+          "server_info": {
+            "id": 4,
+            "name": "matcha (Singapore) All Maps #1"
+          }
+        },
+        "user_id": 10736,
+        "name": "vice -tt",
+        "steamid": "STEAM_0:0:203051360",
+        "rank": 10,
+        "placement": 10,
+        "player_info": {
+          "id": 10736,
+          "steamid": "STEAM_0:0:203051360",
+          "name": "vice -tt"
+        }
+      },
+      {
+        "id": 4232643,
+        "zone_id": 1550,
+        "duration": 273.21,
+        "class": 3,
+        "date": 1602682498.878033,
+        "demo_info": {
+          "id": 1387018,
+          "start_tick": 466256,
+          "end_tick": 484470,
+          "url": null,
+          "server_info": {
+            "id": 21,
+            "name": "jump.tf (France) All Maps #2"
+          }
+        },
+        "user_id": 363721,
+        "name": "juuq -rng",
+        "steamid": "STEAM_0:0:141843299",
+        "rank": 11,
+        "placement": 11,
+        "player_info": {
+          "id": 363721,
+          "steamid": "STEAM_0:0:141843299",
+          "name": "juuq -rng"
+        }
+      },
+      {
+        "id": 5548924,
+        "zone_id": 1550,
+        "duration": 277.2,
+        "class": 3,
+        "date": 1649608678.4288163,
+        "demo_info": {
+          "id": 1912741,
+          "start_tick": 251227,
+          "end_tick": 269708,
+          "url": null,
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 97463,
+        "name": "Van dyk",
+        "steamid": "STEAM_0:0:94512021",
+        "rank": 12,
+        "placement": 11,
+        "player_info": {
+          "id": 97463,
+          "steamid": "STEAM_0:0:94512021",
+          "name": "Van dyk"
+        }
+      },
+      {
+        "id": 2575243,
+        "zone_id": 1550,
+        "duration": 277.71,
+        "class": 3,
+        "date": 1533843701.2588432,
+        "demo_info": {
+          "id": 730167,
+          "start_tick": 221297,
+          "end_tick": 239811,
+          "url": null,
+          "server_info": {
+            "id": 23,
+            "name": "jump.tf (France) Rank 50 Only"
+          }
+        },
+        "user_id": 52080,
+        "name": "eepy cat",
+        "steamid": "STEAM_0:1:50152141",
+        "rank": 13,
+        "placement": 11,
+        "player_info": {
+          "id": 52080,
+          "steamid": "STEAM_0:1:50152141",
+          "name": "eepy cat"
+        }
+      },
+      {
+        "id": 2519039,
+        "zone_id": 1550,
+        "duration": 278.16,
+        "class": 3,
+        "date": 1531256761.546609,
+        "demo_info": {
+          "id": 702702,
+          "start_tick": 241010,
+          "end_tick": 259554,
+          "url": null,
+          "server_info": {
+            "id": 22,
+            "name": "jump.tf (France) Rank 100 Only"
+          }
+        },
+        "user_id": 56236,
+        "name": "Meister Röhrich",
+        "steamid": "STEAM_0:1:37952542",
+        "rank": 14,
+        "placement": 11,
+        "player_info": {
+          "id": 56236,
+          "steamid": "STEAM_0:1:37952542",
+          "name": "Meister Röhrich"
+        }
+      },
+      {
+        "id": 2733866,
+        "zone_id": 1550,
+        "duration": 281.28,
+        "class": 3,
+        "date": 1541496605.744649,
+        "demo_info": {
+          "id": 809169,
+          "start_tick": 145896,
+          "end_tick": 164648,
+          "url": null,
+          "server_info": {
+            "id": 13,
+            "name": "RG #15 - No Rank Limit (Russia)"
+          }
+        },
+        "user_id": 87930,
+        "name": "betteroffx",
+        "steamid": "STEAM_0:1:75546737",
+        "rank": 15,
+        "placement": 11,
+        "player_info": {
+          "id": 87930,
+          "steamid": "STEAM_0:1:75546737",
+          "name": "betteroffx"
+        }
+      },
+      {
+        "id": 1625207,
+        "zone_id": 1550,
+        "duration": 282.525,
+        "class": 3,
+        "date": 1491000049.1349273,
+        "demo_info": {
+          "id": 395251,
+          "start_tick": 402775,
+          "end_tick": 421610,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 82781,
+        "name": "un gato ˄˅",
+        "steamid": "STEAM_0:1:53042796",
+        "rank": 16,
+        "placement": 11,
+        "player_info": {
+          "id": 82781,
+          "steamid": "STEAM_0:1:53042796",
+          "name": "un gato ˄˅"
+        }
+      },
+      {
+        "id": 1698584,
+        "zone_id": 1550,
+        "duration": 285.99,
+        "class": 3,
+        "date": 1493876858.338245,
+        "demo_info": {
+          "id": 410042,
+          "start_tick": 393683,
+          "end_tick": 412749,
+          "url": "https://demos-archive.tempus2.xyz/10/0b/auto-20170504-040427-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 53,
+        "name": "chegzi",
+        "steamid": "STEAM_0:1:45275106",
+        "rank": 17,
+        "placement": 11,
+        "player_info": {
+          "id": 53,
+          "steamid": "STEAM_0:1:45275106",
+          "name": "chegzi"
+        }
+      },
+      {
+        "id": 874512,
+        "zone_id": 1550,
+        "duration": 292.995,
+        "class": 3,
+        "date": 1455274578.0448575,
+        "demo_info": {
+          "id": 208738,
+          "start_tick": 31216,
+          "end_tick": 50749,
+          "url": "https://demos-archive.tempus2.xyz/10/03/auto-20160212-104336-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 8734,
+        "name": "khal pogo",
+        "steamid": "STEAM_0:0:74289264",
+        "rank": 18,
+        "placement": 11,
+        "player_info": {
+          "id": 8734,
+          "steamid": "STEAM_0:0:74289264",
+          "name": "khal pogo"
+        }
+      },
+      {
+        "id": 6038077,
+        "zone_id": 1550,
+        "duration": 300.69,
+        "class": 3,
+        "date": 1675147546.4015498,
+        "demo_info": {
+          "id": 2199092,
+          "start_tick": 1346,
+          "end_tick": 21392,
+          "url": null,
+          "server_info": {
+            "id": 42,
+            "name": "Jump (Adelaide) All Maps"
+          }
+        },
+        "user_id": 281915,
+        "name": "newjuls",
+        "steamid": "STEAM_0:0:217876305",
+        "rank": 19,
+        "placement": 11,
+        "player_info": {
+          "id": 281915,
+          "steamid": "STEAM_0:0:217876305",
+          "name": "newjuls"
+        }
+      },
+      {
+        "id": 671249,
+        "zone_id": 1550,
+        "duration": 306.72,
+        "class": 3,
+        "date": 1445810441.5392642,
+        "demo_info": {
+          "id": 158325,
+          "start_tick": 183630,
+          "end_tick": 204077,
+          "url": "https://demos-archive.tempus2.xyz/6/70/auto-20151025-210940-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 7078,
+        "name": "LessThanThree",
+        "steamid": "STEAM_0:1:53149111",
+        "rank": 20,
+        "placement": 11,
+        "player_info": {
+          "id": 7078,
+          "steamid": "STEAM_0:1:53149111",
+          "name": "LessThanThree"
+        }
+      },
+      {
+        "id": 5190742,
+        "zone_id": 1550,
+        "duration": 315.93,
+        "class": 3,
+        "date": 1633589311.806144,
+        "demo_info": {
+          "id": 1724713,
+          "start_tick": 67134,
+          "end_tick": 88196,
+          "url": null,
+          "server_info": {
+            "id": 7,
+            "name": "matcha (Singapore) All Maps #2"
+          }
+        },
+        "user_id": 15984,
+        "name": "hiei",
+        "steamid": "STEAM_0:1:76830649",
+        "rank": 21,
+        "placement": 11,
+        "player_info": {
+          "id": 15984,
+          "steamid": "STEAM_0:1:76830649",
+          "name": "hiei"
+        }
+      },
+      {
+        "id": 5448362,
+        "zone_id": 1550,
+        "duration": 328.365,
+        "class": 3,
+        "date": 1645007037.0604136,
+        "demo_info": {
+          "id": 1859759,
+          "start_tick": 51665,
+          "end_tick": 73556,
+          "url": null,
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 3456,
+        "name": "ThriLLseeka`",
+        "steamid": "STEAM_0:1:16352",
+        "rank": 22,
+        "placement": 11,
+        "player_info": {
+          "id": 3456,
+          "steamid": "STEAM_0:1:16352",
+          "name": "ThriLLseeka`"
+        }
+      },
+      {
+        "id": 5456557,
+        "zone_id": 1550,
+        "duration": 328.545,
+        "class": 3,
+        "date": 1645360027.714635,
+        "demo_info": {
+          "id": 1864850,
+          "start_tick": 91274,
+          "end_tick": 113177,
+          "url": null,
+          "server_info": {
+            "id": 23,
+            "name": "jump.tf (France) Rank 50 Only"
+          }
+        },
+        "user_id": 284437,
+        "name": "Columbina Hyposelenia",
+        "steamid": "STEAM_0:1:106153740",
+        "rank": 23,
+        "placement": 11,
+        "player_info": {
+          "id": 284437,
+          "steamid": "STEAM_0:1:106153740",
+          "name": "Columbina Hyposelenia"
+        }
+      },
+      {
+        "id": 1698612,
+        "zone_id": 1550,
+        "duration": 335.73,
+        "class": 3,
+        "date": 1493878764.8696656,
+        "demo_info": {
+          "id": 410042,
+          "start_tick": 517469,
+          "end_tick": 539851,
+          "url": "https://demos-archive.tempus2.xyz/10/0b/auto-20170504-040427-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 71541,
+        "name": "scotch",
+        "steamid": "STEAM_0:1:40666116",
+        "rank": 24,
+        "placement": 11,
+        "player_info": {
+          "id": 71541,
+          "steamid": "STEAM_0:1:40666116",
+          "name": "scotch"
+        }
+      },
+      {
+        "id": 7104503,
+        "zone_id": 1550,
+        "duration": 344.415,
+        "class": 3,
+        "date": 1713112678.779534,
+        "demo_info": {
+          "id": 2816716,
+          "start_tick": 88180,
+          "end_tick": 111141,
+          "url": "https://demos-rolling.tempus2.xyz/61/44/auto-20240414-161011-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 61,
+            "name": "jump.tf (London) Rank 100 Only"
+          }
+        },
+        "user_id": 170632,
+        "name": "Farma",
+        "steamid": "STEAM_0:0:82288286",
+        "rank": 25,
+        "placement": 11,
+        "player_info": {
+          "id": 170632,
+          "steamid": "STEAM_0:0:82288286",
+          "name": "Farma"
+        }
+      },
+      {
+        "id": 6993723,
+        "zone_id": 1550,
+        "duration": 344.805,
+        "class": 3,
+        "date": 1709076643.503825,
+        "demo_info": {
+          "id": 2751102,
+          "start_tick": 505003,
+          "end_tick": 527990,
+          "url": null,
+          "server_info": {
+            "id": 59,
+            "name": "jump.tf (London) All Maps #2"
+          }
+        },
+        "user_id": 6334,
+        "name": "porkie",
+        "steamid": "STEAM_0:1:46986837",
+        "rank": 26,
+        "placement": 11,
+        "player_info": {
+          "id": 6334,
+          "steamid": "STEAM_0:1:46986837",
+          "name": "porkie"
+        }
+      },
+      {
+        "id": 4579027,
+        "zone_id": 1550,
+        "duration": 344.97,
+        "class": 3,
+        "date": 1614295447.512031,
+        "demo_info": {
+          "id": 1519749,
+          "start_tick": 668291,
+          "end_tick": 691289,
+          "url": null,
+          "server_info": {
+            "id": 21,
+            "name": "jump.tf (France) All Maps #2"
+          }
+        },
+        "user_id": 206022,
+        "name": "WingsWithoutBird",
+        "steamid": "STEAM_0:1:123981799",
+        "rank": 27,
+        "placement": 11,
+        "player_info": {
+          "id": 206022,
+          "steamid": "STEAM_0:1:123981799",
+          "name": "WingsWithoutBird"
+        }
+      },
+      {
+        "id": 1698709,
+        "zone_id": 1550,
+        "duration": 348.27,
+        "class": 3,
+        "date": 1493884317.4187293,
+        "demo_info": {
+          "id": 410042,
+          "start_tick": 886803,
+          "end_tick": 910021,
+          "url": "https://demos-archive.tempus2.xyz/10/0b/auto-20170504-040427-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 11020,
+        "name": "twitch.tv/arvinge",
+        "steamid": "STEAM_0:0:51817875",
+        "rank": 28,
+        "placement": 11,
+        "player_info": {
+          "id": 11020,
+          "steamid": "STEAM_0:0:51817875",
+          "name": "twitch.tv/arvinge"
+        }
+      },
+      {
+        "id": 6677418,
+        "zone_id": 1550,
+        "duration": 351.15,
+        "class": 3,
+        "date": 1698702734.5091784,
+        "demo_info": {
+          "id": 2569451,
+          "start_tick": 814929,
+          "end_tick": 838339,
+          "url": null,
+          "server_info": {
+            "id": 20,
+            "name": "jump.tf (France) All Maps #1"
+          }
+        },
+        "user_id": 559838,
+        "name": "zyaquix",
+        "steamid": "STEAM_0:1:553877587",
+        "rank": 29,
+        "placement": 12,
+        "player_info": {
+          "id": 559838,
+          "steamid": "STEAM_0:1:553877587",
+          "name": "zyaquix"
+        }
+      },
+      {
+        "id": 966093,
+        "zone_id": 1550,
+        "duration": 353.895,
+        "class": 3,
+        "date": 1459567131.2677817,
+        "demo_info": {
+          "id": 231783,
+          "start_tick": 247247,
+          "end_tick": 270840,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 25020,
+        "name": "photon",
+        "steamid": "STEAM_0:1:43141155",
+        "rank": 30,
+        "placement": 12,
+        "player_info": {
+          "id": 25020,
+          "steamid": "STEAM_0:1:43141155",
+          "name": "photon"
+        }
+      },
+      {
+        "id": 7897785,
+        "zone_id": 1550,
+        "duration": 356.625,
+        "class": 3,
+        "date": 1748083627.789906,
+        "demo_info": {
+          "id": 3331926,
+          "start_tick": 32070,
+          "end_tick": 55851,
+          "url": "https://demos-rolling.tempus2.xyz/22/e7/auto-20250524-103310-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 22,
+            "name": "jump.tf (France) Rank 100 Only"
+          }
+        },
+        "user_id": 543719,
+        "name": "th14 marisaB life exploit",
+        "steamid": "STEAM_0:1:189013068",
+        "rank": 31,
+        "placement": 12,
+        "player_info": {
+          "id": 543719,
+          "steamid": "STEAM_0:1:189013068",
+          "name": "th14 marisaB life exploit"
+        }
+      },
+      {
+        "id": 2021401,
+        "zone_id": 1550,
+        "duration": 360.345,
+        "class": 3,
+        "date": 1507564670.4405057,
+        "demo_info": {
+          "id": 481977,
+          "start_tick": 341807,
+          "end_tick": 365830,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 3677,
+        "name": "Teardrop",
+        "steamid": "STEAM_0:0:53340664",
+        "rank": 32,
+        "placement": 12,
+        "player_info": {
+          "id": 3677,
+          "steamid": "STEAM_0:0:53340664",
+          "name": "Teardrop"
+        }
+      },
+      {
+        "id": 3547070,
+        "zone_id": 1550,
+        "duration": 360.57,
+        "class": 3,
+        "date": 1578993628.5049226,
+        "demo_info": {
+          "id": 1148622,
+          "start_tick": 3815,
+          "end_tick": 27853,
+          "url": null,
+          "server_info": {
+            "id": 21,
+            "name": "jump.tf (France) All Maps #2"
+          }
+        },
+        "user_id": 15204,
+        "name": "ORACLE Masala",
+        "steamid": "STEAM_0:0:41614468",
+        "rank": 33,
+        "placement": 12,
+        "player_info": {
+          "id": 15204,
+          "steamid": "STEAM_0:0:41614468",
+          "name": "ORACLE Masala"
+        }
+      },
+      {
+        "id": 3383356,
+        "zone_id": 1550,
+        "duration": 364.485,
+        "class": 3,
+        "date": 1570168671.9410305,
+        "demo_info": {
+          "id": 1072779,
+          "start_tick": 471348,
+          "end_tick": 495647,
+          "url": null,
+          "server_info": {
+            "id": 19,
+            "name": "jump.tf (New York) Rank 200 Only"
+          }
+        },
+        "user_id": 72315,
+        "name": "yeye (dustbowl lover)",
+        "steamid": "STEAM_0:1:80182307",
+        "rank": 34,
+        "placement": 12,
+        "player_info": {
+          "id": 72315,
+          "steamid": "STEAM_0:1:80182307",
+          "name": "yeye (dustbowl lover)"
+        }
+      },
+      {
+        "id": 3969119,
+        "zone_id": 1550,
+        "duration": 364.92,
+        "class": 3,
+        "date": 1595094172.8614578,
+        "demo_info": {
+          "id": 1303969,
+          "start_tick": 337349,
+          "end_tick": 361677,
+          "url": null,
+          "server_info": {
+            "id": 20,
+            "name": "jump.tf (France) All Maps #1"
+          }
+        },
+        "user_id": 80043,
+        "name": "Ww! Darkknio™",
+        "steamid": "STEAM_0:0:51488204",
+        "rank": 35,
+        "placement": 12,
+        "player_info": {
+          "id": 80043,
+          "steamid": "STEAM_0:0:51488204",
+          "name": "Ww! Darkknio™"
+        }
+      },
+      {
+        "id": 6211036,
+        "zone_id": 1550,
+        "duration": 365.895,
+        "class": 3,
+        "date": 1682557410.7277963,
+        "demo_info": {
+          "id": 2293223,
+          "start_tick": 168155,
+          "end_tick": 192548,
+          "url": null,
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 407146,
+        "name": "gubar",
+        "steamid": "STEAM_0:0:457462281",
+        "rank": 36,
+        "placement": 12,
+        "player_info": {
+          "id": 407146,
+          "steamid": "STEAM_0:0:457462281",
+          "name": "gubar"
+        }
+      },
+      {
+        "id": 1971927,
+        "zone_id": 1550,
+        "duration": 368.775,
+        "class": 3,
+        "date": 1505528536.135459,
+        "demo_info": {
+          "id": 470440,
+          "start_tick": 794613,
+          "end_tick": 819198,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 5865,
+        "name": "Fifz",
+        "steamid": "STEAM_0:0:48687418",
+        "rank": 37,
+        "placement": 12,
+        "player_info": {
+          "id": 5865,
+          "steamid": "STEAM_0:0:48687418",
+          "name": "Fifz"
+        }
+      },
+      {
+        "id": 7794482,
+        "zone_id": 1550,
+        "duration": 369.255,
+        "class": 3,
+        "date": 1739319037.2818973,
+        "demo_info": {
+          "id": 3262327,
+          "start_tick": 188404,
+          "end_tick": 213022,
+          "url": "https://demos-rolling.tempus2.xyz/64/19/auto-20250211-231721-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 64,
+            "name": "jump.tf (Frankfurt) All Maps #2"
+          }
+        },
+        "user_id": 1358,
+        "name": "Ltfx",
+        "steamid": "STEAM_0:1:45672290",
+        "rank": 38,
+        "placement": 12,
+        "player_info": {
+          "id": 1358,
+          "steamid": "STEAM_0:1:45672290",
+          "name": "Ltfx"
+        }
+      },
+      {
+        "id": 7611679,
+        "zone_id": 1550,
+        "duration": 376.245,
+        "class": 3,
+        "date": 1731695113.105506,
+        "demo_info": {
+          "id": 3131296,
+          "start_tick": 139888,
+          "end_tick": 164971,
+          "url": "https://demos-rolling.tempus2.xyz/19/9a/auto-20241115-174358-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 19,
+            "name": "jump.tf (New York) Rank 200 Only"
+          }
+        },
+        "user_id": 49148,
+        "name": "bernt",
+        "steamid": "STEAM_0:1:28733540",
+        "rank": 39,
+        "placement": 12,
+        "player_info": {
+          "id": 49148,
+          "steamid": "STEAM_0:1:28733540",
+          "name": "bernt"
+        }
+      },
+      {
+        "id": 2350803,
+        "zone_id": 1550,
+        "duration": 377.505,
+        "class": 3,
+        "date": 1523134411.2192388,
+        "demo_info": {
+          "id": 0,
+          "start_tick": 0,
+          "end_tick": 0,
+          "url": null,
+          "server_info": {
+            "id": 0,
+            "name": null
+          }
+        },
+        "user_id": 112076,
+        "name": "valix",
+        "steamid": "STEAM_0:1:77189428",
+        "rank": 40,
+        "placement": 12,
+        "player_info": {
+          "id": 112076,
+          "steamid": "STEAM_0:1:77189428",
+          "name": "valix"
+        }
+      },
+      {
+        "id": 6545049,
+        "zone_id": 1550,
+        "duration": 381.855,
+        "class": 3,
+        "date": 1694102077.2784755,
+        "demo_info": {
+          "id": 2491157,
+          "start_tick": 59868,
+          "end_tick": 85326,
+          "url": null,
+          "server_info": {
+            "id": 59,
+            "name": "jump.tf (London) All Maps #2"
+          }
+        },
+        "user_id": 404181,
+        "name": "Bae",
+        "steamid": "STEAM_0:1:479997585",
+        "rank": 41,
+        "placement": 12,
+        "player_info": {
+          "id": 404181,
+          "steamid": "STEAM_0:1:479997585",
+          "name": "Bae"
+        }
+      },
+      {
+        "id": 3909443,
+        "zone_id": 1550,
+        "duration": 382.74,
+        "class": 3,
+        "date": 1593192885.7754402,
+        "demo_info": {
+          "id": 1285742,
+          "start_tick": 121382,
+          "end_tick": 146898,
+          "url": null,
+          "server_info": {
+            "id": 13,
+            "name": "RG #15 - No Rank Limit (Russia)"
+          }
+        },
+        "user_id": 138722,
+        "name": "Vadim.",
+        "steamid": "STEAM_0:0:23132668",
+        "rank": 42,
+        "placement": 12,
+        "player_info": {
+          "id": 138722,
+          "steamid": "STEAM_0:0:23132668",
+          "name": "Vadim."
+        }
+      },
+      {
+        "id": 7654340,
+        "zone_id": 1550,
+        "duration": 386.55,
+        "class": 3,
+        "date": 1733340160.0828671,
+        "demo_info": {
+          "id": 3159057,
+          "start_tick": 126235,
+          "end_tick": 152005,
+          "url": "https://demos-rolling.tempus2.xyz/18/69/auto-20241204-184440-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 18,
+            "name": "jump.tf (New York) All Maps"
+          }
+        },
+        "user_id": 242505,
+        "name": "I choese Rapture",
+        "steamid": "STEAM_0:0:52208445",
+        "rank": 43,
+        "placement": 12,
+        "player_info": {
+          "id": 242505,
+          "steamid": "STEAM_0:0:52208445",
+          "name": "I choese Rapture"
+        }
+      },
+      {
+        "id": 1254170,
+        "zone_id": 1550,
+        "duration": 388.335,
+        "class": 3,
+        "date": 1473799160.9861588,
+        "demo_info": {
+          "id": 305165,
+          "start_tick": 239190,
+          "end_tick": 265079,
+          "url": null,
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 72697,
+        "name": "Starkie",
+        "steamid": "STEAM_0:1:23868850",
+        "rank": 44,
+        "placement": 12,
+        "player_info": {
+          "id": 72697,
+          "steamid": "STEAM_0:1:23868850",
+          "name": "Starkie"
+        }
+      },
+      {
+        "id": 5554897,
+        "zone_id": 1550,
+        "duration": 389.655,
+        "class": 3,
+        "date": 1649896153.5095942,
+        "demo_info": {
+          "id": 1915809,
+          "start_tick": 974,
+          "end_tick": 26951,
+          "url": null,
+          "server_info": {
+            "id": 50,
+            "name": "jump.tf (Los Angeles) Rank 200 Only"
+          }
+        },
+        "user_id": 429555,
+        "name": "Cygnus",
+        "steamid": "STEAM_0:0:108888603",
+        "rank": 45,
+        "placement": 12,
+        "player_info": {
+          "id": 429555,
+          "steamid": "STEAM_0:0:108888603",
+          "name": "Cygnus"
+        }
+      },
+      {
+        "id": 6174805,
+        "zone_id": 1550,
+        "duration": 392.13,
+        "class": 3,
+        "date": 1681252223.2479832,
+        "demo_info": {
+          "id": 2270946,
+          "start_tick": 132161,
+          "end_tick": 158303,
+          "url": null,
+          "server_info": {
+            "id": 20,
+            "name": "jump.tf (France) All Maps #1"
+          }
+        },
+        "user_id": 109829,
+        "name": "axios",
+        "steamid": "STEAM_0:0:115930409",
+        "rank": 46,
+        "placement": 12,
+        "player_info": {
+          "id": 109829,
+          "steamid": "STEAM_0:0:115930409",
+          "name": "axios"
+        }
+      },
+      {
+        "id": 1883631,
+        "zone_id": 1550,
+        "duration": 393.885,
+        "class": 3,
+        "date": 1501766511.0838866,
+        "demo_info": {
+          "id": 450445,
+          "start_tick": 2270,
+          "end_tick": 28529,
+          "url": null,
+          "server_info": {
+            "id": 5,
+            "name": "jump.tf (Los Angeles) All Maps #1"
+          }
+        },
+        "user_id": 5533,
+        "name": "ˢˡᵒʷᵗʰ",
+        "steamid": "STEAM_0:0:66792094",
+        "rank": 47,
+        "placement": 12,
+        "player_info": {
+          "id": 5533,
+          "steamid": "STEAM_0:0:66792094",
+          "name": "ˢˡᵒʷᵗʰ"
+        }
+      },
+      {
+        "id": 1298938,
+        "zone_id": 1550,
+        "duration": 396.525,
+        "class": 3,
+        "date": 1476122326.7762287,
+        "demo_info": {
+          "id": 316912,
+          "start_tick": 369850,
+          "end_tick": 396285,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 8364,
+        "name": "gibus ˄˅",
+        "steamid": "STEAM_0:1:62183455",
+        "rank": 48,
+        "placement": 12,
+        "player_info": {
+          "id": 8364,
+          "steamid": "STEAM_0:1:62183455",
+          "name": "gibus ˄˅"
+        }
+      },
+      {
+        "id": 1592439,
+        "zone_id": 1550,
+        "duration": 403.05,
+        "class": 3,
+        "date": 1489804946.8933256,
+        "demo_info": {
+          "id": 389034,
+          "start_tick": 190727,
+          "end_tick": 217597,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 24810,
+        "name": "Gorge004",
+        "steamid": "STEAM_0:0:48169766",
+        "rank": 49,
+        "placement": 12,
+        "player_info": {
+          "id": 24810,
+          "steamid": "STEAM_0:0:48169766",
+          "name": "Gorge004"
+        }
+      },
+      {
+        "id": 8201368,
+        "zone_id": 1550,
+        "duration": 408.39,
+        "class": 3,
+        "date": 1763248886.602498,
+        "demo_info": {
+          "id": 3586038,
+          "start_tick": 73109,
+          "end_tick": 100335,
+          "url": "https://demos-rolling.tempus2.xyz/8/c4/auto-20251115-225621-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 8,
+            "name": "jump.tf (Chicago) Beginners"
+          }
+        },
+        "user_id": 12914,
+        "name": "Nato",
+        "steamid": "STEAM_0:0:59619921",
+        "rank": 50,
+        "placement": 12,
+        "player_info": {
+          "id": 12914,
+          "steamid": "STEAM_0:0:59619921",
+          "name": "Nato"
+        }
+      }
+    ],
+    "demoman": [
+      {
+        "id": 8392813,
+        "zone_id": 1550,
+        "duration": 122.475,
+        "class": 4,
+        "date": 1772880512.706244,
+        "demo_info": {
+          "id": 3782121,
+          "start_tick": 243041,
+          "end_tick": 251205,
+          "url": "https://demos-archive.tempus2.xyz/4/63/auto-20260307-094544-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 4,
+            "name": "matcha (Singapore) All Maps #1"
+          }
+        },
+        "user_id": 243670,
+        "name": "cander",
+        "steamid": "STEAM_0:1:179228575",
+        "rank": 1,
+        "placement": 1,
+        "player_info": {
+          "id": 243670,
+          "steamid": "STEAM_0:1:179228575",
+          "name": "cander"
+        }
+      },
+      {
+        "id": 5171215,
+        "zone_id": 1550,
+        "duration": 127.005,
+        "class": 4,
+        "date": 1632752741.5215774,
+        "demo_info": {
+          "id": 1714955,
+          "start_tick": 61759,
+          "end_tick": 70226,
+          "url": "https://demos-archive.tempus2.xyz/41/d2/auto-20210927-140808-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 41,
+            "name": "jump.tf (New York) Rank 50 Only"
+          }
+        },
+        "user_id": 15063,
+        "name": "phancy",
+        "steamid": "STEAM_0:0:77962002",
+        "rank": 2,
+        "placement": 2,
+        "player_info": {
+          "id": 15063,
+          "steamid": "STEAM_0:0:77962002",
+          "name": "phancy"
+        }
+      },
+      {
+        "id": 7946637,
+        "zone_id": 1550,
+        "duration": 127.14,
+        "class": 4,
+        "date": 1750432037.026844,
+        "demo_info": {
+          "id": 3370421,
+          "start_tick": 42918,
+          "end_tick": 51394,
+          "url": "https://demos-rolling.tempus2.xyz/38/c2/auto-20250620-145426-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 38,
+            "name": "jump.tf (Sydney) Rank 50 Only"
+          }
+        },
+        "user_id": 99892,
+        "name": "kater",
+        "steamid": "STEAM_0:0:130870208",
+        "rank": 3,
+        "placement": 3,
+        "player_info": {
+          "id": 99892,
+          "steamid": "STEAM_0:0:130870208",
+          "name": "kater"
+        }
+      },
+      {
+        "id": 7456128,
+        "zone_id": 1550,
+        "duration": 133.14,
+        "class": 4,
+        "date": 1726191512.2307198,
+        "demo_info": {
+          "id": 3037861,
+          "start_tick": 308090,
+          "end_tick": 316966,
+          "url": "https://demos-rolling.tempus2.xyz/41/1e/auto-20240913-001917-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 41,
+            "name": "jump.tf (New York) Rank 50 Only"
+          }
+        },
+        "user_id": 69834,
+        "name": "sam",
+        "steamid": "STEAM_0:0:42721090",
+        "rank": 4,
+        "placement": 4,
+        "player_info": {
+          "id": 69834,
+          "steamid": "STEAM_0:0:42721090",
+          "name": "sam"
+        }
+      },
+      {
+        "id": 7098051,
+        "zone_id": 1550,
+        "duration": 139.35,
+        "class": 4,
+        "date": 1712926631.72904,
+        "demo_info": {
+          "id": 2813317,
+          "start_tick": 485961,
+          "end_tick": 495251,
+          "url": "https://demos-rolling.tempus2.xyz/28/9b/auto-20240412-105322-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 28,
+            "name": "jump.tf (Sydney) Rank 500 Only"
+          }
+        },
+        "user_id": 1320,
+        "name": "Matty",
+        "steamid": "STEAM_0:1:37469408",
+        "rank": 5,
+        "placement": 5,
+        "player_info": {
+          "id": 1320,
+          "steamid": "STEAM_0:1:37469408",
+          "name": "Matty"
+        }
+      },
+      {
+        "id": 6374079,
+        "zone_id": 1550,
+        "duration": 141.03,
+        "class": 4,
+        "date": 1688618524.6824152,
+        "demo_info": {
+          "id": 2393496,
+          "start_tick": 218583,
+          "end_tick": 227984,
+          "url": null,
+          "server_info": {
+            "id": 39,
+            "name": "Jump (Dallas) All Maps"
+          }
+        },
+        "user_id": 107009,
+        "name": "kjr -jcf",
+        "steamid": "STEAM_0:0:123318702",
+        "rank": 6,
+        "placement": 6,
+        "player_info": {
+          "id": 107009,
+          "steamid": "STEAM_0:0:123318702",
+          "name": "kjr -jcf"
+        }
+      },
+      {
+        "id": 7442803,
+        "zone_id": 1550,
+        "duration": 141.135,
+        "class": 4,
+        "date": 1725719005.944997,
+        "demo_info": {
+          "id": 3029661,
+          "start_tick": 104095,
+          "end_tick": 113504,
+          "url": "https://demos-rolling.tempus2.xyz/59/2c/auto-20240907-135503-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 59,
+            "name": "jump.tf (London) All Maps #2"
+          }
+        },
+        "user_id": 53588,
+        "name": "kaja",
+        "steamid": "STEAM_0:1:65662519",
+        "rank": 7,
+        "placement": 7,
+        "player_info": {
+          "id": 53588,
+          "steamid": "STEAM_0:1:65662519",
+          "name": "kaja"
+        }
+      },
+      {
+        "id": 2297776,
+        "zone_id": 1550,
+        "duration": 141.39,
+        "class": 4,
+        "date": 1521131494.2850568,
+        "demo_info": {
+          "id": 599902,
+          "start_tick": 202737,
+          "end_tick": 212163,
+          "url": "https://demos-archive.tempus2.xyz/22/58/auto-20180315-153831-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 22,
+            "name": "jump.tf (France) Rank 100 Only"
+          }
+        },
+        "user_id": 2220,
+        "name": "Soup -tt",
+        "steamid": "STEAM_0:1:34509807",
+        "rank": 8,
+        "placement": 8,
+        "player_info": {
+          "id": 2220,
+          "steamid": "STEAM_0:1:34509807",
+          "name": "Soup -tt"
+        }
+      },
+      {
+        "id": 7661685,
+        "zone_id": 1550,
+        "duration": 144.765,
+        "class": 4,
+        "date": 1733636571.3089168,
+        "demo_info": {
+          "id": 3163978,
+          "start_tick": 111972,
+          "end_tick": 121624,
+          "url": "https://demos-rolling.tempus2.xyz/72/24/auto-20241208-051226-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 72,
+            "name": "matcha (Hong Kong) All Maps #1"
+          }
+        },
+        "user_id": 307172,
+        "name": "Agent 67",
+        "steamid": "STEAM_0:1:205904814",
+        "rank": 9,
+        "placement": 9,
+        "player_info": {
+          "id": 307172,
+          "steamid": "STEAM_0:1:205904814",
+          "name": "Agent 67"
+        }
+      },
+      {
+        "id": 5203827,
+        "zone_id": 1550,
+        "duration": 145.995,
+        "class": 4,
+        "date": 1634172407.2184591,
+        "demo_info": {
+          "id": 1732020,
+          "start_tick": 262290,
+          "end_tick": 272022,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 161815,
+        "name": "Jaff",
+        "steamid": "STEAM_0:0:65819789",
+        "rank": 10,
+        "placement": 10,
+        "player_info": {
+          "id": 161815,
+          "steamid": "STEAM_0:0:65819789",
+          "name": "Jaff"
+        }
+      },
+      {
+        "id": 2297511,
+        "zone_id": 1550,
+        "duration": 146.07,
+        "class": 4,
+        "date": 1521114856.6090703,
+        "demo_info": {
+          "id": 599607,
+          "start_tick": 926219,
+          "end_tick": 935957,
+          "url": "https://demos-archive.tempus2.xyz/10/77/auto-20180315-080017-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 53,
+        "name": "chegzi",
+        "steamid": "STEAM_0:1:45275106",
+        "rank": 11,
+        "placement": 11,
+        "player_info": {
+          "id": 53,
+          "steamid": "STEAM_0:1:45275106",
+          "name": "chegzi"
+        }
+      },
+      {
+        "id": 7843649,
+        "zone_id": 1550,
+        "duration": 146.82,
+        "class": 4,
+        "date": 1745743228.081611,
+        "demo_info": {
+          "id": 3294078,
+          "start_tick": 310267,
+          "end_tick": 320055,
+          "url": "https://demos-rolling.tempus2.xyz/27/c4/auto-20250427-072027-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 27,
+            "name": "jump.tf (Sydney) All Maps #2"
+          }
+        },
+        "user_id": 281915,
+        "name": "newjuls",
+        "steamid": "STEAM_0:0:217876305",
+        "rank": 12,
+        "placement": 11,
+        "player_info": {
+          "id": 281915,
+          "steamid": "STEAM_0:0:217876305",
+          "name": "newjuls"
+        }
+      },
+      {
+        "id": 3299660,
+        "zone_id": 1550,
+        "duration": 148.215,
+        "class": 4,
+        "date": 1566056348.8983066,
+        "demo_info": {
+          "id": 1036620,
+          "start_tick": 130917,
+          "end_tick": 140798,
+          "url": null,
+          "server_info": {
+            "id": 7,
+            "name": "matcha (Singapore) All Maps #2"
+          }
+        },
+        "user_id": 10736,
+        "name": "vice -tt",
+        "steamid": "STEAM_0:0:203051360",
+        "rank": 13,
+        "placement": 11,
+        "player_info": {
+          "id": 10736,
+          "steamid": "STEAM_0:0:203051360",
+          "name": "vice -tt"
+        }
+      },
+      {
+        "id": 5930009,
+        "zone_id": 1550,
+        "duration": 152.835,
+        "class": 4,
+        "date": 1669860426.5508595,
+        "demo_info": {
+          "id": 2133309,
+          "start_tick": 150660,
+          "end_tick": 160849,
+          "url": null,
+          "server_info": {
+            "id": 49,
+            "name": "jump.tf (Los Angeles) All Maps #2"
+          }
+        },
+        "user_id": 36640,
+        "name": "Jonah",
+        "steamid": "STEAM_0:1:37760776",
+        "rank": 14,
+        "placement": 11,
+        "player_info": {
+          "id": 36640,
+          "steamid": "STEAM_0:1:37760776",
+          "name": "Jonah"
+        }
+      },
+      {
+        "id": 5302833,
+        "zone_id": 1550,
+        "duration": 152.895,
+        "class": 4,
+        "date": 1638273534.0649064,
+        "demo_info": {
+          "id": 1783353,
+          "start_tick": 40136,
+          "end_tick": 50329,
+          "url": null,
+          "server_info": {
+            "id": 42,
+            "name": "Jump (Adelaide) All Maps"
+          }
+        },
+        "user_id": 202810,
+        "name": "jtravs",
+        "steamid": "STEAM_0:0:78498164",
+        "rank": 15,
+        "placement": 11,
+        "player_info": {
+          "id": 202810,
+          "steamid": "STEAM_0:0:78498164",
+          "name": "jtravs"
+        }
+      },
+      {
+        "id": 5244069,
+        "zone_id": 1550,
+        "duration": 153.645,
+        "class": 4,
+        "date": 1635729498.4126184,
+        "demo_info": {
+          "id": 1751794,
+          "start_tick": 154619,
+          "end_tick": 164862,
+          "url": null,
+          "server_info": {
+            "id": 19,
+            "name": "jump.tf (New York) Rank 200 Only"
+          }
+        },
+        "user_id": 92336,
+        "name": "foster_hotchkiss",
+        "steamid": "STEAM_0:1:119819005",
+        "rank": 16,
+        "placement": 11,
+        "player_info": {
+          "id": 92336,
+          "steamid": "STEAM_0:1:119819005",
+          "name": "foster_hotchkiss"
+        }
+      },
+      {
+        "id": 2732567,
+        "zone_id": 1550,
+        "duration": 155.88,
+        "class": 4,
+        "date": 1541435023.558391,
+        "demo_info": {
+          "id": 808610,
+          "start_tick": 13926,
+          "end_tick": 24318,
+          "url": null,
+          "server_info": {
+            "id": 13,
+            "name": "RG #15 - No Rank Limit (Russia)"
+          }
+        },
+        "user_id": 187024,
+        "name": "colonnoname",
+        "steamid": "STEAM_0:1:174476735",
+        "rank": 17,
+        "placement": 11,
+        "player_info": {
+          "id": 187024,
+          "steamid": "STEAM_0:1:174476735",
+          "name": "colonnoname"
+        }
+      },
+      {
+        "id": 4807688,
+        "zone_id": 1550,
+        "duration": 155.955,
+        "class": 4,
+        "date": 1620729647.9361637,
+        "demo_info": {
+          "id": 1585840,
+          "start_tick": 530508,
+          "end_tick": 540905,
+          "url": null,
+          "server_info": {
+            "id": 41,
+            "name": "jump.tf (New York) Rank 50 Only"
+          }
+        },
+        "user_id": 49065,
+        "name": "Waldo",
+        "steamid": "STEAM_0:1:29995451",
+        "rank": 18,
+        "placement": 11,
+        "player_info": {
+          "id": 49065,
+          "steamid": "STEAM_0:1:29995451",
+          "name": "Waldo"
+        }
+      },
+      {
+        "id": 2519121,
+        "zone_id": 1550,
+        "duration": 157.845,
+        "class": 4,
+        "date": 1531259809.5765114,
+        "demo_info": {
+          "id": 702702,
+          "start_tick": 452233,
+          "end_tick": 462756,
+          "url": null,
+          "server_info": {
+            "id": 22,
+            "name": "jump.tf (France) Rank 100 Only"
+          }
+        },
+        "user_id": 117266,
+        "name": "GARY SHOVEL",
+        "steamid": "STEAM_0:1:40436056",
+        "rank": 19,
+        "placement": 11,
+        "player_info": {
+          "id": 117266,
+          "steamid": "STEAM_0:1:40436056",
+          "name": "GARY SHOVEL"
+        }
+      },
+      {
+        "id": 7603074,
+        "zone_id": 1550,
+        "duration": 159.675,
+        "class": 4,
+        "date": 1731286141.7625773,
+        "demo_info": {
+          "id": 3124624,
+          "start_tick": 306656,
+          "end_tick": 317301,
+          "url": "https://demos-rolling.tempus2.xyz/46/ca/auto-20241110-232942-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 46,
+            "name": "jump.tf (Sweden) Rank 200 Only"
+          }
+        },
+        "user_id": 357942,
+        "name": "Helmi -jcf",
+        "steamid": "STEAM_0:1:120859835",
+        "rank": 20,
+        "placement": 11,
+        "player_info": {
+          "id": 357942,
+          "steamid": "STEAM_0:1:120859835",
+          "name": "Helmi -jcf"
+        }
+      },
+      {
+        "id": 3038965,
+        "zone_id": 1550,
+        "duration": 160.245,
+        "class": 4,
+        "date": 1554399432.0546196,
+        "demo_info": {
+          "id": 931734,
+          "start_tick": 216800,
+          "end_tick": 227483,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 26151,
+        "name": "False_",
+        "steamid": "STEAM_0:0:42003584",
+        "rank": 21,
+        "placement": 11,
+        "player_info": {
+          "id": 26151,
+          "steamid": "STEAM_0:0:42003584",
+          "name": "False_"
+        }
+      },
+      {
+        "id": 2211226,
+        "zone_id": 1550,
+        "duration": 163.74,
+        "class": 4,
+        "date": 1516484675.5915387,
+        "demo_info": {
+          "id": 556469,
+          "start_tick": 339804,
+          "end_tick": 350720,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 151834,
+        "name": "mesatech",
+        "steamid": "STEAM_0:0:75790122",
+        "rank": 22,
+        "placement": 11,
+        "player_info": {
+          "id": 151834,
+          "steamid": "STEAM_0:0:75790122",
+          "name": "mesatech"
+        }
+      },
+      {
+        "id": 7049550,
+        "zone_id": 1550,
+        "duration": 166.98,
+        "class": 4,
+        "date": 1711061253.18281,
+        "demo_info": {
+          "id": 2783604,
+          "start_tick": 79920,
+          "end_tick": 91052,
+          "url": "https://demos-rolling.tempus2.xyz/10/a8/auto-20240321-222447-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 76244,
+        "name": "Hona",
+        "steamid": "STEAM_0:0:130771884",
+        "rank": 23,
+        "placement": 11,
+        "player_info": {
+          "id": 76244,
+          "steamid": "STEAM_0:0:130771884",
+          "name": "Hona"
+        }
+      },
+      {
+        "id": 2750112,
+        "zone_id": 1550,
+        "duration": 168.105,
+        "class": 4,
+        "date": 1542285699.0273483,
+        "demo_info": {
+          "id": 816773,
+          "start_tick": 46101,
+          "end_tick": 57308,
+          "url": null,
+          "server_info": {
+            "id": 17,
+            "name": "matcha (Singapore) All Maps #4"
+          }
+        },
+        "user_id": 15949,
+        "name": "nook nook",
+        "steamid": "STEAM_0:0:16575358",
+        "rank": 24,
+        "placement": 11,
+        "player_info": {
+          "id": 15949,
+          "steamid": "STEAM_0:0:16575358",
+          "name": "nook nook"
+        }
+      },
+      {
+        "id": 6993474,
+        "zone_id": 1550,
+        "duration": 168.315,
+        "class": 4,
+        "date": 1709069282.1332343,
+        "demo_info": {
+          "id": 2751102,
+          "start_tick": 26010,
+          "end_tick": 37232,
+          "url": null,
+          "server_info": {
+            "id": 59,
+            "name": "jump.tf (London) All Maps #2"
+          }
+        },
+        "user_id": 3802,
+        "name": "Charlie",
+        "steamid": "STEAM_0:1:814709",
+        "rank": 25,
+        "placement": 11,
+        "player_info": {
+          "id": 3802,
+          "steamid": "STEAM_0:1:814709",
+          "name": "Charlie"
+        }
+      },
+      {
+        "id": 1361577,
+        "zone_id": 1550,
+        "duration": 169.71,
+        "class": 4,
+        "date": 1479151673.6851315,
+        "demo_info": {
+          "id": 333363,
+          "start_tick": 222372,
+          "end_tick": 233686,
+          "url": "https://demos-archive.tempus2.xyz/6/0e/auto-20161114-182928-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 9667,
+        "name": "mø",
+        "steamid": "STEAM_0:1:19008580",
+        "rank": 26,
+        "placement": 11,
+        "player_info": {
+          "id": 9667,
+          "steamid": "STEAM_0:1:19008580",
+          "name": "mø"
+        }
+      },
+      {
+        "id": 6873401,
+        "zone_id": 1550,
+        "duration": 170.715,
+        "class": 4,
+        "date": 1705416912.8115766,
+        "demo_info": {
+          "id": 2687110,
+          "start_tick": 102493,
+          "end_tick": 113875,
+          "url": null,
+          "server_info": {
+            "id": 16,
+            "name": "matcha (Singapore) All Maps #3"
+          }
+        },
+        "user_id": 34396,
+        "name": "stinkydog.jpg",
+        "steamid": "STEAM_0:0:53161690",
+        "rank": 27,
+        "placement": 11,
+        "player_info": {
+          "id": 34396,
+          "steamid": "STEAM_0:0:53161690",
+          "name": "stinkydog.jpg"
+        }
+      },
+      {
+        "id": 6963793,
+        "zone_id": 1550,
+        "duration": 170.835,
+        "class": 4,
+        "date": 1708111373.6378021,
+        "demo_info": {
+          "id": 2734615,
+          "start_tick": 87835,
+          "end_tick": 99224,
+          "url": null,
+          "server_info": {
+            "id": 40,
+            "name": "Jump (Dallas) Rank 100 Only"
+          }
+        },
+        "user_id": 274000,
+        "name": "vash",
+        "steamid": "STEAM_0:0:208671110",
+        "rank": 28,
+        "placement": 11,
+        "player_info": {
+          "id": 274000,
+          "steamid": "STEAM_0:0:208671110",
+          "name": "vash"
+        }
+      },
+      {
+        "id": 1698621,
+        "zone_id": 1550,
+        "duration": 174.885,
+        "class": 4,
+        "date": 1493879337.4343824,
+        "demo_info": {
+          "id": 410042,
+          "start_tick": 566363,
+          "end_tick": 578022,
+          "url": "https://demos-archive.tempus2.xyz/10/0b/auto-20170504-040427-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 8837,
+        "name": "879m",
+        "steamid": "STEAM_0:0:41763746",
+        "rank": 29,
+        "placement": 11,
+        "player_info": {
+          "id": 8837,
+          "steamid": "STEAM_0:0:41763746",
+          "name": "879m"
+        }
+      },
+      {
+        "id": 7482345,
+        "zone_id": 1550,
+        "duration": 175.02,
+        "class": 4,
+        "date": 1727071143.5877385,
+        "demo_info": {
+          "id": 3052676,
+          "start_tick": 149036,
+          "end_tick": 160705,
+          "url": "https://demos-rolling.tempus2.xyz/39/0f/auto-20240923-051853-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 39,
+            "name": "Jump (Dallas) All Maps"
+          }
+        },
+        "user_id": 9451,
+        "name": "weatherspoon",
+        "steamid": "STEAM_0:1:47631893",
+        "rank": 30,
+        "placement": 11,
+        "player_info": {
+          "id": 9451,
+          "steamid": "STEAM_0:1:47631893",
+          "name": "weatherspoon"
+        }
+      },
+      {
+        "id": 7097861,
+        "zone_id": 1550,
+        "duration": 177.285,
+        "class": 4,
+        "date": 1712920308.8847694,
+        "demo_info": {
+          "id": 2813317,
+          "start_tick": 61910,
+          "end_tick": 73728,
+          "url": "https://demos-rolling.tempus2.xyz/28/9b/auto-20240412-105322-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 28,
+            "name": "jump.tf (Sydney) Rank 500 Only"
+          }
+        },
+        "user_id": 412732,
+        "name": "tao",
+        "steamid": "STEAM_0:0:485034200",
+        "rank": 31,
+        "placement": 12,
+        "player_info": {
+          "id": 412732,
+          "steamid": "STEAM_0:0:485034200",
+          "name": "tao"
+        }
+      },
+      {
+        "id": 1801937,
+        "zone_id": 1550,
+        "duration": 178.38,
+        "class": 4,
+        "date": 1497871370.6191602,
+        "demo_info": {
+          "id": 430482,
+          "start_tick": 133915,
+          "end_tick": 145807,
+          "url": null,
+          "server_info": {
+            "id": 13,
+            "name": "RG #15 - No Rank Limit (Russia)"
+          }
+        },
+        "user_id": 5571,
+        "name": "snrs",
+        "steamid": "STEAM_0:1:41114994",
+        "rank": 32,
+        "placement": 12,
+        "player_info": {
+          "id": 5571,
+          "steamid": "STEAM_0:1:41114994",
+          "name": "snrs"
+        }
+      },
+      {
+        "id": 1698503,
+        "zone_id": 1550,
+        "duration": 180.21,
+        "class": 4,
+        "date": 1493873081.114082,
+        "demo_info": {
+          "id": 410042,
+          "start_tick": 148920,
+          "end_tick": 160934,
+          "url": "https://demos-archive.tempus2.xyz/10/0b/auto-20170504-040427-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 8734,
+        "name": "khal pogo",
+        "steamid": "STEAM_0:0:74289264",
+        "rank": 33,
+        "placement": 12,
+        "player_info": {
+          "id": 8734,
+          "steamid": "STEAM_0:0:74289264",
+          "name": "khal pogo"
+        }
+      },
+      {
+        "id": 836910,
+        "zone_id": 1550,
+        "duration": 183,
+        "class": 4,
+        "date": 1453531853.401412,
+        "demo_info": {
+          "id": 199341,
+          "start_tick": 454148,
+          "end_tick": 466348,
+          "url": "https://demos-archive.tempus2.xyz/2/81/auto-20160123-045418-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 5164,
+        "name": "Zike1017",
+        "steamid": "STEAM_0:1:45050273",
+        "rank": 34,
+        "placement": 12,
+        "player_info": {
+          "id": 5164,
+          "steamid": "STEAM_0:1:45050273",
+          "name": "Zike1017"
+        }
+      },
+      {
+        "id": 3695273,
+        "zone_id": 1550,
+        "duration": 183.12,
+        "class": 4,
+        "date": 1586428935.9440467,
+        "demo_info": {
+          "id": 1219819,
+          "start_tick": 394842,
+          "end_tick": 407050,
+          "url": null,
+          "server_info": {
+            "id": 10,
+            "name": "jump.tf (Sydney) All Maps #1"
+          }
+        },
+        "user_id": 20581,
+        "name": "Chief",
+        "steamid": "STEAM_0:1:81156691",
+        "rank": 35,
+        "placement": 12,
+        "player_info": {
+          "id": 20581,
+          "steamid": "STEAM_0:1:81156691",
+          "name": "Chief"
+        }
+      },
+      {
+        "id": 7730560,
+        "zone_id": 1550,
+        "duration": 186.975,
+        "class": 4,
+        "date": 1736611050.3661013,
+        "demo_info": {
+          "id": 3214922,
+          "start_tick": 36832,
+          "end_tick": 49298,
+          "url": "https://demos-rolling.tempus2.xyz/65/6a/auto-20250111-154510-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 65,
+            "name": "jump.tf (Frankfurt) Rank 500 Only"
+          }
+        },
+        "user_id": 352043,
+        "name": "newbi",
+        "steamid": "STEAM_0:1:17926506",
+        "rank": 36,
+        "placement": 12,
+        "player_info": {
+          "id": 352043,
+          "steamid": "STEAM_0:1:17926506",
+          "name": "newbi"
+        }
+      },
+      {
+        "id": 2454687,
+        "zone_id": 1550,
+        "duration": 189.555,
+        "class": 4,
+        "date": 1528009195.4138496,
+        "demo_info": {
+          "id": 667472,
+          "start_tick": 73157,
+          "end_tick": 85794,
+          "url": null,
+          "server_info": {
+            "id": 7,
+            "name": "matcha (Singapore) All Maps #2"
+          }
+        },
+        "user_id": 35454,
+        "name": "5* ship cleaner",
+        "steamid": "STEAM_0:1:67898228",
+        "rank": 37,
+        "placement": 12,
+        "player_info": {
+          "id": 35454,
+          "steamid": "STEAM_0:1:67898228",
+          "name": "5* ship cleaner"
+        }
+      },
+      {
+        "id": 8392777,
+        "zone_id": 1550,
+        "duration": 189.945,
+        "class": 4,
+        "date": 1772877176.260939,
+        "demo_info": {
+          "id": 3782121,
+          "start_tick": 16115,
+          "end_tick": 28777,
+          "url": "https://demos-archive.tempus2.xyz/4/63/auto-20260307-094544-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 4,
+            "name": "matcha (Singapore) All Maps #1"
+          }
+        },
+        "user_id": 663,
+        "name": "MUH",
+        "steamid": "STEAM_0:1:69123378",
+        "rank": 38,
+        "placement": 12,
+        "player_info": {
+          "id": 663,
+          "steamid": "STEAM_0:1:69123378",
+          "name": "MUH"
+        }
+      },
+      {
+        "id": 2831337,
+        "zone_id": 1550,
+        "duration": 190.755,
+        "class": 4,
+        "date": 1545928284.0374448,
+        "demo_info": {
+          "id": 851723,
+          "start_tick": 92408,
+          "end_tick": 105125,
+          "url": null,
+          "server_info": {
+            "id": 4,
+            "name": "matcha (Singapore) All Maps #1"
+          }
+        },
+        "user_id": 19001,
+        "name": "chiyo",
+        "steamid": "STEAM_0:0:43158198",
+        "rank": 39,
+        "placement": 12,
+        "player_info": {
+          "id": 19001,
+          "steamid": "STEAM_0:0:43158198",
+          "name": "chiyo"
+        }
+      },
+      {
+        "id": 1217505,
+        "zone_id": 1550,
+        "duration": 191.52,
+        "class": 4,
+        "date": 1471766924.4422016,
+        "demo_info": {
+          "id": 294512,
+          "start_tick": 11900,
+          "end_tick": 24668,
+          "url": null,
+          "server_info": {
+            "id": 6,
+            "name": "jump.tf (Germany) Adv #1"
+          }
+        },
+        "user_id": 4741,
+        "name": "ku -tt",
+        "steamid": "STEAM_0:0:42569728",
+        "rank": 40,
+        "placement": 12,
+        "player_info": {
+          "id": 4741,
+          "steamid": "STEAM_0:0:42569728",
+          "name": "ku -tt"
+        }
+      },
+      {
+        "id": 5264915,
+        "zone_id": 1550,
+        "duration": 192.27,
+        "class": 4,
+        "date": 1636606792.1128063,
+        "demo_info": {
+          "id": 1762573,
+          "start_tick": 217731,
+          "end_tick": 230549,
+          "url": null,
+          "server_info": {
+            "id": 28,
+            "name": "jump.tf (Sydney) Rank 500 Only"
+          }
+        },
+        "user_id": 204,
+        "name": "error.",
+        "steamid": "STEAM_0:0:74084283",
+        "rank": 41,
+        "placement": 12,
+        "player_info": {
+          "id": 204,
+          "steamid": "STEAM_0:0:74084283",
+          "name": "error."
+        }
+      },
+      {
+        "id": 4928064,
+        "zone_id": 1550,
+        "duration": 192.84,
+        "class": 4,
+        "date": 1624146907.3843873,
+        "demo_info": {
+          "id": 1617613,
+          "start_tick": 32430,
+          "end_tick": 45286,
+          "url": null,
+          "server_info": {
+            "id": 39,
+            "name": "Jump (Dallas) All Maps"
+          }
+        },
+        "user_id": 189535,
+        "name": "teeny",
+        "steamid": "STEAM_0:1:71666445",
+        "rank": 42,
+        "placement": 12,
+        "player_info": {
+          "id": 189535,
+          "steamid": "STEAM_0:1:71666445",
+          "name": "teeny"
+        }
+      },
+      {
+        "id": 7502887,
+        "zone_id": 1550,
+        "duration": 194.055,
+        "class": 4,
+        "date": 1727650246.3290055,
+        "demo_info": {
+          "id": 3062338,
+          "start_tick": 91382,
+          "end_tick": 104319,
+          "url": "https://demos-rolling.tempus2.xyz/45/d1/auto-20240929-222441-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 45,
+            "name": "jump.tf (Sweden) All Maps #2"
+          }
+        },
+        "user_id": 406638,
+        "name": "torn",
+        "steamid": "STEAM_0:1:95301390",
+        "rank": 43,
+        "placement": 12,
+        "player_info": {
+          "id": 406638,
+          "steamid": "STEAM_0:1:95301390",
+          "name": "torn"
+        }
+      },
+      {
+        "id": 7482309,
+        "zone_id": 1550,
+        "duration": 195.285,
+        "class": 4,
+        "date": 1727070137.1337132,
+        "demo_info": {
+          "id": 3052676,
+          "start_tick": 80588,
+          "end_tick": 93608,
+          "url": "https://demos-rolling.tempus2.xyz/39/0f/auto-20240923-051853-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 39,
+            "name": "Jump (Dallas) All Maps"
+          }
+        },
+        "user_id": 176220,
+        "name": "dont do drugz",
+        "steamid": "STEAM_0:1:169579919",
+        "rank": 44,
+        "placement": 12,
+        "player_info": {
+          "id": 176220,
+          "steamid": "STEAM_0:1:169579919",
+          "name": "dont do drugz"
+        }
+      },
+      {
+        "id": 7740360,
+        "zone_id": 1550,
+        "duration": 196.125,
+        "class": 4,
+        "date": 1737041100.3659217,
+        "demo_info": {
+          "id": 3222263,
+          "start_tick": 299990,
+          "end_tick": 313066,
+          "url": "https://demos-rolling.tempus2.xyz/13/c7/auto-20250116-140644-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 13,
+            "name": "RG #15 - No Rank Limit (Russia)"
+          }
+        },
+        "user_id": 3529,
+        "name": "Омния",
+        "steamid": "STEAM_0:0:21784080",
+        "rank": 45,
+        "placement": 12,
+        "player_info": {
+          "id": 3529,
+          "steamid": "STEAM_0:0:21784080",
+          "name": "Омния"
+        }
+      },
+      {
+        "id": 5135149,
+        "zone_id": 1550,
+        "duration": 196.365,
+        "class": 4,
+        "date": 1630895427.7977042,
+        "demo_info": {
+          "id": 1696109,
+          "start_tick": 131772,
+          "end_tick": 144864,
+          "url": null,
+          "server_info": {
+            "id": 18,
+            "name": "jump.tf (New York) All Maps"
+          }
+        },
+        "user_id": 357577,
+        "name": "katie",
+        "steamid": "STEAM_0:0:226066217",
+        "rank": 46,
+        "placement": 12,
+        "player_info": {
+          "id": 357577,
+          "steamid": "STEAM_0:0:226066217",
+          "name": "katie"
+        }
+      },
+      {
+        "id": 6086772,
+        "zone_id": 1550,
+        "duration": 196.725,
+        "class": 4,
+        "date": 1677382861.0203595,
+        "demo_info": {
+          "id": 2225506,
+          "start_tick": 53955,
+          "end_tick": 67070,
+          "url": null,
+          "server_info": {
+            "id": 41,
+            "name": "jump.tf (New York) Rank 50 Only"
+          }
+        },
+        "user_id": 53673,
+        "name": "pongler woods",
+        "steamid": "STEAM_0:1:49586042",
+        "rank": 47,
+        "placement": 12,
+        "player_info": {
+          "id": 53673,
+          "steamid": "STEAM_0:1:49586042",
+          "name": "pongler woods"
+        }
+      },
+      {
+        "id": 1774170,
+        "zone_id": 1550,
+        "duration": 198.225,
+        "class": 4,
+        "date": 1496760705.5235765,
+        "demo_info": {
+          "id": 424550,
+          "start_tick": 58222,
+          "end_tick": 71437,
+          "url": null,
+          "server_info": {
+            "id": 2,
+            "name": "jump.tf (Chicago) All Maps"
+          }
+        },
+        "user_id": 66875,
+        "name": "BananaPeeler2",
+        "steamid": "STEAM_0:1:105609399",
+        "rank": 48,
+        "placement": 12,
+        "player_info": {
+          "id": 66875,
+          "steamid": "STEAM_0:1:105609399",
+          "name": "BananaPeeler2"
+        }
+      },
+      {
+        "id": 7472595,
+        "zone_id": 1550,
+        "duration": 198.45,
+        "class": 4,
+        "date": 1726750625.0413518,
+        "demo_info": {
+          "id": 3047311,
+          "start_tick": 190180,
+          "end_tick": 203410,
+          "url": "https://demos-rolling.tempus2.xyz/16/20/auto-20240919-120613-jump_4demo_fixed5.zip",
+          "server_info": {
+            "id": 16,
+            "name": "matcha (Singapore) All Maps #3"
+          }
+        },
+        "user_id": 80237,
+        "name": "Reze",
+        "steamid": "STEAM_0:0:56629317",
+        "rank": 49,
+        "placement": 12,
+        "player_info": {
+          "id": 80237,
+          "steamid": "STEAM_0:0:56629317",
+          "name": "Reze"
+        }
+      },
+      {
+        "id": 5119179,
+        "zone_id": 1550,
+        "duration": 198.885,
+        "class": 4,
+        "date": 1630504986.8190591,
+        "demo_info": {
+          "id": 1690934,
+          "start_tick": 139232,
+          "end_tick": 152491,
+          "url": null,
+          "server_info": {
+            "id": 21,
+            "name": "jump.tf (France) All Maps #2"
+          }
+        },
+        "user_id": 130245,
+        "name": ":)",
+        "steamid": "STEAM_0:1:63264836",
+        "rank": 50,
+        "placement": 12,
+        "player_info": {
+          "id": 130245,
+          "steamid": "STEAM_0:1:63264836",
+          "name": ":)"
+        }
+      }
+    ]
+  }
+}
