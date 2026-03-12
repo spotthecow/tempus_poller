@@ -5,9 +5,9 @@ use serde::{Deserialize, Serialize};
 /// An item returned by /maps/detailedList.
 #[derive(Debug, Clone, Deserialize)]
 pub struct Map {
-    pub id: u32,
+    pub id: i32,
     pub name: String,
-    pub zone_counts: HashMap<String, u32>,
+    pub zone_counts: HashMap<String, i32>,
     pub authors: Vec<Author>,
     pub tier_info: TierInfo,
     pub rating_info: RatingInfo,
@@ -17,24 +17,24 @@ pub struct Map {
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Author {
     pub name: String,
-    pub id: u32,
-    pub map_id: u32,
+    pub id: i32,
+    pub map_id: i32,
 }
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct TierInfo {
     #[serde(rename = "3")]
-    pub soldier: u8,
+    pub soldier: i8,
     #[serde(rename = "4")]
-    pub demoman: u8,
+    pub demoman: i8,
 }
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct RatingInfo {
     #[serde(rename = "3")]
-    pub soldier: u8,
+    pub soldier: i8,
     #[serde(rename = "4")]
-    pub demoman: u8,
+    pub demoman: i8,
 }
 
 #[derive(Debug, Clone, Deserialize)]
@@ -55,9 +55,9 @@ pub struct MapRecordsList {
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct ZoneInfo {
-    pub id: u32,
-    pub map_id: u32,
-    pub zoneindex: u32,
+    pub id: i32,
+    pub map_id: i32,
+    pub zoneindex: i32,
     pub custom_name: Option<String>,
     #[serde(rename = "type")]
     pub kind: String,
@@ -65,8 +65,8 @@ pub struct ZoneInfo {
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct CompletionInfo {
-    pub soldier: u32,
-    pub demoman: u32,
+    pub soldier: i32,
+    pub demoman: i32,
 }
 
 #[derive(Debug, Clone, Deserialize)]
@@ -77,38 +77,38 @@ pub struct Records {
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct Record {
-    pub id: u32,
-    pub zone_id: u32,
-    pub duration: f64, //fixme
-    pub class: u8,
-    pub date: f64, //fixme
+    pub id: i32,
+    pub zone_id: i32,
+    pub duration: f64,
+    pub class: i8,
+    pub date: f64,
     pub demo_info: DemoInfo,
-    pub user_id: u32,
+    pub user_id: i32,
     pub name: String,
     pub steamid: String,
-    pub rank: u32,
-    pub placement: u32,
+    pub rank: i32,
+    pub placement: i32,
     pub player_info: PlayerInfo,
 }
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct DemoInfo {
-    pub id: u32,
-    pub start_tick: u32,
-    pub end_tick: u32,
+    pub id: i32,
+    pub start_tick: i32,
+    pub end_tick: i32,
     pub url: Option<String>,
     pub server_info: ServerInfo,
 }
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct ServerInfo {
-    pub id: u32,
+    pub id: i32,
     pub name: Option<String>,
 }
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct PlayerInfo {
-    pub id: u32,
+    pub id: i32,
     pub steamid: String,
     pub name: String,
 }
@@ -224,6 +224,7 @@ mod tests {
 
         const DATA: &str = include_str!("../test_data/map_records_136.json");
         const DATA2: &str = include_str!("../test_data/map_records_4.json");
+        const DATA3: &str = include_str!("../test_data/map_records_412_full.json");
 
         #[test]
         fn deserializes_full_response() {
@@ -234,6 +235,8 @@ mod tests {
             let resp: MapRecordsList = serde_json::from_str(DATA2).unwrap();
             assert_eq!(resp.records.soldier.len(), 50);
             assert_eq!(resp.records.demoman.len(), 50);
+
+            let _: MapRecordsList = serde_json::from_str(DATA3).unwrap();
         }
 
         #[test]
@@ -284,7 +287,7 @@ mod tests {
         #[test]
         fn record_ordering_by_rank() {
             let resp: MapRecordsList = serde_json::from_str(DATA).unwrap();
-            let ranks: Vec<u32> = resp.records.soldier.iter().map(|r| r.rank).collect();
+            let ranks: Vec<i32> = resp.records.soldier.iter().map(|r| r.rank).collect();
             let mut sorted = ranks.clone();
             sorted.sort();
             assert_eq!(ranks, sorted);

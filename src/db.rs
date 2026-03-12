@@ -23,7 +23,7 @@ pub async fn upsert_maps(pool: &PgPool, maps: &[Map]) -> anyhow::Result<()> {
                 video_demoman = EXCLUDED.video_demoman,
                 fetched_at = EXCLUDED.fetched_at
             "#,
-            map.id as i32,
+            map.id,
             &map.name,
             map.tier_info.soldier as i16,
             map.tier_info.demoman as i16,
@@ -51,7 +51,7 @@ pub async fn upsert_users(pool: &PgPool, records: &[Record]) -> anyhow::Result<(
                 steamid = EXCLUDED.steamid,
                 name = EXCLUDED.name
             "#,
-            rec.user_id as i32,
+            rec.user_id,
             &rec.steamid,
             &rec.name,
         )
@@ -74,9 +74,9 @@ pub async fn upsert_records(pool: &PgPool, map_id: i32, records: &[Record]) -> a
                 date = EXCLUDED.date,
                 fetched_at = EXCLUDED.fetched_at
             "#,
-            rec.id as i32,
+            rec.id,
             map_id,
-            rec.user_id as i32,
+            rec.user_id,
             rec.class as i16,
             rec.duration,
             rec.date,

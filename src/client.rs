@@ -45,8 +45,8 @@ impl TempusClient {
     }
 
     #[tracing::instrument(skip(self))]
-    pub async fn get_map_records(&self, map_id: u32) -> anyhow::Result<models::MapRecordsList> {
-        let url = format!("/maps/id/{map_id}/zones/typeindex/map/1/records/list");
+    pub async fn get_map_records(&self, map_id: i32) -> anyhow::Result<models::MapRecordsList> {
+        let url = format!("/maps/id/{map_id}/zones/typeindex/map/1/records/list?limit=0");
         let response = self.inner.get(self.base.clone() + &url).send().await?;
 
         let status = response.status();
